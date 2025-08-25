@@ -13,6 +13,8 @@
         }
         private static void LoadData(MLContext mLContext)
         {
+
+            // https://learn.microsoft.com/en-us/dotnet/machine-learning/tutorials/movie-recommendation
             (IDataView training, IDataView test) LoadData(MLContext mlContext)
             {
                 ITransformer model = BuildAndTrainModel(mlContext, trainingDataView);
